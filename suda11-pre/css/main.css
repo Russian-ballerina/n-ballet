@@ -112,6 +112,7 @@ header {
 @media screen and (max-width: 959px) {
   .hd-logo {
     font-size: 2.2rem;
+    margin: 0;
   }
 }
 
@@ -124,7 +125,6 @@ header {
 }
 @media screen and (max-width: 959px) {
   .first-v {
-    height: 67vh;
     box-sizing: content-box;
     margin: 0;
     width: 100%;
@@ -190,6 +190,11 @@ header {
     font-weight: bold;
     letter-spacing: 2.8px;
     order: 1;
+  }
+}
+@media screen and (max-width: 959px) and (max-width: 375px) {
+  .catch-2 {
+    font-size: 2.8rem;
   }
 }
 
@@ -394,14 +399,14 @@ header {
 .purpose {
   box-sizing: border-box;
   width: 100%;
-  height: 128vh;
+  height: fit-content;
   position: relative;
   background: linear-gradient(180deg, pink 0%, #A193861F 39%, #A193861F 39%, pink 100%);
 }
 @media screen and (max-width: 959px) {
   .purpose {
     background: linear-gradient(180deg, pink 0%, #A193861F 20%, #A193861F 20%, pink 100%);
-    height: 163vh;
+    height: fit-content;
   }
 }
 @media screen and (max-width: 375px) {
