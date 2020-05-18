@@ -1,0 +1,8 @@
+.c-inner {
+    width: 100% - 8.3 * 2;
+    margin: 0 auto;
+    padding-top: 10rem;
+    @include tab {
+        padding-top: 5vh;
+    }
+}

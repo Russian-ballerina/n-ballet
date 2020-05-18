@@ -45,6 +45,7 @@
     font-size: 2.6rem;
     font-family: serif;
     font-weight: bold;
+    color: black;
     @include tab {
         font-size: 2.3rem;
         order: 2;
@@ -56,10 +57,10 @@
 }
 
 .catch-2 {
-    font-size: 9rem;
+    font-size: 4rem;
     font-family: "Zapfino","Kunstler Script","Times New Roman", serif;
     font-weight: bold;
-    padding: 0 7vw 0 0;
+    padding: 0;
     @include tab {
         font-size: 3.8rem;
         font-weight: bold;
@@ -68,3 +69,4 @@
     }
 
 }
+

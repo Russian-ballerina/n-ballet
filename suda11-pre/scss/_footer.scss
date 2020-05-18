@@ -51,9 +51,10 @@ footer {
         
 
     }
-    &__twitter, &__facebook {
-        font-size: 20px;
-    }
+  &__insta {
+    font-size: 30px;
+    color: black;
+  }
 }
 
 .btn {
@@ -84,3 +85,4 @@ footer {
         order: 1;
     }
 }
+
