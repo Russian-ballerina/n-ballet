@@ -254,7 +254,6 @@ header {
     text-align: center;
     margin: 8vh 0;
     height: 40vh;
-    padding-top: 315px;
   }
 }
 .c-text .c-text-1 {
@@ -295,6 +294,12 @@ header {
     height: fit-content;
     letter-spacing: 1.6px;
   }
+}
+
+.prof-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .menu {

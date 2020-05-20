@@ -52,7 +52,7 @@
         text-align: center;
         margin: 8vh 0;
         height: 40vh;
-        padding-top: 315px;
+        // padding-top: 315px;
     }
     .c-text-1 {
         font-size: 3.8rem;
@@ -95,5 +95,8 @@
 
 
 
-
- 
+ .prof-wrap {
+     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
