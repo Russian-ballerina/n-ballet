@@ -411,7 +411,7 @@ header {
 }
 @media screen and (max-width: 375px) {
   .purpose {
-    height: 183vh;
+    height: fit-content;
   }
 }
 
