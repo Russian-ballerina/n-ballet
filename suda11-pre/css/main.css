@@ -548,7 +548,7 @@ footer {
 .f-text {
   display: flex;
   justify-content: space-between;
-  width: 390px;
+  width: 400px;
   align-items: center;
 }
 @media screen and (max-width: 959px) {
