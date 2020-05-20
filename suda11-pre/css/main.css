@@ -253,7 +253,7 @@ header {
     flex-direction: column;
     text-align: center;
     margin: 8vh 0;
-    height: 40vh;
+    height: fit-content;
   }
 }
 .c-text .c-text-1 {
@@ -401,6 +401,10 @@ header {
   }
 }
 
+.menu__content__money {
+  padding-bottom: 10px;
+}
+
 .purpose {
   box-sizing: border-box;
   width: 100%;
@@ -429,7 +433,7 @@ header {
 }
 @media screen and (max-width: 959px) {
   .img-2 {
-    width: 300px;
+    width: 250px;
     height: 205px;
     top: 15%;
   }
@@ -544,19 +548,19 @@ footer {
 .f-text {
   display: flex;
   justify-content: space-between;
-  width: 335px;
+  width: 350px;
   align-items: center;
 }
 @media screen and (max-width: 959px) {
   .f-text {
-    width: 320px;
+    width: 250px;
     order: 2;
     margin-top: 8vh;
   }
 }
 .f-text__title {
   font-size: 3.2rem;
-  color: #7070704D;
+  color: black;
 }
 @media screen and (max-width: 959px) {
   .f-text__title {

@@ -31,16 +31,16 @@ footer {
 .f-text {
     display:flex;
     justify-content: space-between;
-    width: 335px;
+    width: 350px;
     align-items: center;
     @include tab {
-        width: 320px;
+        width: 250px;
         order: 2;
         margin-top: 8vh;
     }
     &__title {
         font-size: 3.2rem;
-        color: #7070704D;
+        color: black;
         @include tab {
              font-size: 18px;
             @include sp {
