@@ -318,7 +318,7 @@ header {
 }
 @media screen and (max-width: 959px) {
   .menu-item1 {
-    width: 335px;
+    width: 320px;
     text-align: left;
   }
 }
@@ -330,7 +330,7 @@ header {
 }
 @media screen and (max-width: 959px) {
   .menu-item2 {
-    width: 335px;
+    width: 320px;
     text-align: left;
   }
 }
@@ -369,7 +369,7 @@ header {
 }
 @media screen and (max-width: 959px) {
   .menu-img .m-img {
-    width: 335px;
+    width: 320px;
     background-repeat: cover;
   }
 }
@@ -379,7 +379,7 @@ header {
 }
 @media screen and (max-width: 959px) {
   .menu-img .menu-img .m-img {
-    width: 335px;
+    width: 320px;
     background-repeat: cover;
   }
 }
