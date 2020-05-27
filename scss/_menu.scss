@@ -1,0 +1,114 @@
+.menu {
+    background-color: rgba($color: #adff2f, $alpha: 0.2)
+   
+}
+
+
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 5vw;
+    
+    @include tab {
+        flex-direction: column;
+        
+    }
+}
+
+
+    
+.menu-item1 {
+    
+    @include tab {
+        width: 335px;
+        text-align: left;
+       
+    }
+
+    font-family: "Roboto Mono for Powerline", serif;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+.menu-item2 {
+    
+    @include tab {
+        width: 335px;
+        text-align: left;
+       
+    }
+
+    font-family: "Roboto Mono for Powerline", serif;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+    .menu__content {
+    font-size: 1.6rem;
+    width: 400px;
+        &__title {
+            font-size: 2.3rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        &__money {
+            text-align: right;
+        }
+        @include tab {
+            width: 100%;
+            text-align: left;
+        }
+    }
+    .menu__content__content {
+        height: 106px;
+        @include tab {
+            height: fit-content;
+        }
+    }
+ 
+
+
+.menu-img {
+    .m-img {
+        width: 400px;
+        height: 300px;
+       
+    
+    @include tab{
+        width: 335px;
+        background-repeat: cover;
+        
+    }
+}
+.menu-img {
+    .m-img {
+        width: 400px;
+        height: 300px;
+       
+    
+    @include tab{
+        width: 335px;
+        background-repeat: cover;
+        
+    }
+}
+}
+
+}
+
+
+
+.m2-inner {
+    width: 100% - 8.3 * 2;
+    margin: 0 auto;
+    padding-top: 3rem;
+    @include tab {
+        padding-top: 5vh;
+    }
+}
+
+.menu__content__money {
+    padding-bottom: 10px;
+}

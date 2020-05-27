@@ -1,0 +1,103 @@
+.concept {
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background: linear-gradient(180deg,#A193861F 0%,#A193861F 39%,#A1938689 39%,pink 100%);
+    @include tab {
+        background: linear-gradient(180deg,#A193861F 0%,#A193861F 20%,#A1938689 20%,pink 100%);
+        height: fit-content;
+    }
+    @include sp {
+        height: fit-content;
+    }
+}
+
+
+
+
+.concept-img {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+   
+    
+   
+    .img-3 {
+        width: 500px;
+        height: 50vh;
+        position: absolute;
+        left: 50%;
+        top: 48%;
+        transform: translate(-50%, -50%);
+        @include tab {
+            width: 300px;
+                top: 28%;
+            }
+        }
+     }
+
+.c-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 3vh 8.11vw 0;
+    align-items: center;
+    color: black;
+    height: fit-content;
+    padding-top: 290px;
+    @include tab {
+        flex-direction: column;
+        text-align: center;
+        margin: 8vh 0;
+        height: fit-content;
+        // padding-top: 315px;
+    }
+    .c-text-1 {
+        font-size: 3.8rem;
+        font-family: serif;
+        letter-spacing: 1.6rem;
+        height: fit-content;
+        // width: 427px;
+        @include tab {
+            font-size: 20px;
+            width: 300px;
+            height: fit-content;
+        }
+    }
+    .c-text-2 {
+        font-size: 1.6rem;
+        height: fit-content;
+        font-family: serif;
+        text-align: left;
+        // width: 50vh;
+        @include tab {
+            font-size: 16px;
+            width: 333px;
+            height: fit-content;
+            letter-spacing: 1.6px;
+        }
+    }
+    .c-text-3 {
+        font-size: 2.2rem;
+        height: fit-content;
+        font-family: serif;
+        // width: 50vh;
+        @include tab {
+            font-size: 16px;
+            width: 333px;
+            height: fit-content;
+            letter-spacing: 1.6px;
+    }
+}
+}
+   
+
+
+
+ .prof-wrap {
+     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
