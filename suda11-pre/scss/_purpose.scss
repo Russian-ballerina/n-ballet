@@ -27,7 +27,7 @@
     @include tab {
         width: 250px;
         height: 205px;
-        top: 15%;
+        top: 10%;
     }
 }
 
@@ -40,9 +40,10 @@
     color: black;
     padding-top: 350px;
     height: fit-content;
+    text-align: left;
     @include tab {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         margin: 8vh 0;
         height: fit-content;
         padding-top: 133px;
